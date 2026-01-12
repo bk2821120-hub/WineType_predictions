@@ -11,7 +11,7 @@ import numpy as np
 import joblib
 import streamlit as st
 
-model = joblib.load("/content/wine_type_prediction.pkl")
+model = joblib.load("wine_type_prediction.pkl")
 
 st.set_page_config(page_title="Wine type classifier")
 st.title("Wine Type lassifier App")
